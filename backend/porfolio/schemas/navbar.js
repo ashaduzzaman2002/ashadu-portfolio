@@ -1,15 +1,20 @@
-export default {
-    name: 'navbar',
-    title: 'Navbar',
+export default{
+    name:'navbar',
+    title:'Navbar',
     type: 'document',
-    fields: [
+    fields:[
         {
-            name: 'logo',
-            title: 'logo',
+            name:'id',
+            title:'Id',
+            type:'string'
+        },
+        {
+            name:'logo',
+            title:'Logo',
             type: 'image',
-            option: {
-                hotspot: true
-            }
-        }  
+            options: {
+              hotspot: true,
+            },
+        },
     ]
 }
